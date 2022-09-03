@@ -11,8 +11,10 @@
     "use-sync-external-store"
   ],
   "scripts": {
+    "clean": "rescript clean",
     "build": "rescript build -with-deps",
-    "watch": "rescript build -w -with-deps"
+    "watch": "rescript build -w -with-deps",
+    "prepare": "yarn run build"
   },
   "packageManager": "yarn@3.2.3",
   "peerDependencies": {
