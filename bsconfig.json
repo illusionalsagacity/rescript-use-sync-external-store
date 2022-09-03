@@ -1,0 +1,19 @@
+{
+  "name": "rescript-use-sync-external-store",
+  "reason": { "react-jsx": 3 },
+  "sources": [
+    {
+      "dir": "src",
+      "subdirs": true
+    },
+    { "dir": "__test__", "type": "dev" }
+  ],
+  "package-specs": [
+    {
+      "module": "es6",
+      "in-source": true
+    }
+  ],
+  "suffix": ".bs.js",
+  "bs-dependencies": ["@rescript/react"]
+}
