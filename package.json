@@ -1,6 +1,6 @@
 {
   "name": "rescript-use-sync-external-store",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "ReScript bindings to use-sync-external-store",
   "author": "rob",
   "license": "MIT",
