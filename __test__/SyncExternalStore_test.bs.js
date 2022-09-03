@@ -2,6 +2,7 @@
 
 import * as Curry from "rescript/lib/es6/curry.js";
 import * as React from "react";
+import * as Caml_option from "rescript/lib/es6/caml_option.js";
 import * as Shim from "use-sync-external-store/shim";
 import * as WithSelector from "use-sync-external-store/shim/withSelector";
 
@@ -27,11 +28,12 @@ function getSnapshot(param) {
 
 function SyncExternalStore_test(Props) {
   var valueA = Shim.useSyncExternalStore(subscribe, getSnapshot, undefined);
+  var partial_arg = (function (a, b) {
+      return a === b;
+    });
   var valueB = WithSelector.useSyncExternalStoreWithSelector(subscribe, getSnapshot, undefined, (function (ref) {
           return ref.contents;
-        }), (function (a, b) {
-          return a === b;
-        }));
+        }), Caml_option.option_get(Curry.__2(partial_arg)));
   return React.createElement("div", undefined, React.createElement("span", undefined, valueA.contents), React.createElement("span", undefined, valueB));
 }
 
