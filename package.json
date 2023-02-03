@@ -1,6 +1,6 @@
 {
   "name": "rescript-use-sync-external-store",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "ReScript bindings to use-sync-external-store",
   "repository": "github:illusionalsagacity/rescript-use-sync-external-store",
   "author": "rob",
