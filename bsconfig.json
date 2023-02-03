@@ -1,5 +1,6 @@
 {
   "name": "rescript-use-sync-external-store",
+  "jsx": { "version": 4, "mode": "automatic" },
   "reason": { "react-jsx": 3 },
   "sources": [
     {

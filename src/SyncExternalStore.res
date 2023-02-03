@@ -9,6 +9,7 @@
  *
  * https://github.com/facebook/react/blob/main/packages/use-sync-external-store/src/useSyncExternalStoreShimClient.js
  */
+@genType
 @module("use-sync-external-store/shim")
 external use: (
   ~subscribe: (@uncurry unit => unit, @uncurry unit) => unit,
@@ -26,6 +27,7 @@ external use: (
  *
  * https://github.com/facebook/react/blob/main/packages/use-sync-external-store/src/useSyncExternalStoreWithSelector.js
  */
+@genType
 @module("use-sync-external-store/shim/withSelector")
 external useWithSelector: (
   ~subscribe: (@uncurry unit => unit, @uncurry unit) => unit,
