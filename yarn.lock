@@ -360,13 +360,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@rescript/react@npm:~0.11.0":
-  version: 0.11.0
-  resolution: "@rescript/react@npm:0.11.0"
+"@rescript/react@npm:~0.12.0":
+  version: 0.12.2
+  resolution: "@rescript/react@npm:0.12.2"
   peerDependencies:
     react: ">=18.0.0"
     react-dom: ">=18.0.0"
-  checksum: 10/f66bccf4260e26243790ffcc729e26f422bdc9770e2d01f7539320a04fdf93d33f2c9ba9e12b9a4d3b0383fc60299515a7ccfb9076bbbd0c2b4e53215d5eda8f
+  checksum: 10/021f2bdaa611a71a85fd8cd27331b76625236f418f0118006d68707d173dcd5259fdf7f9bf34f3be02118be38616f5b20a3328c0f4e4cccb6c50ae8664e51c0b
   languageName: node
   linkType: hard
 
@@ -1815,25 +1815,24 @@ __metadata:
   dependencies:
     "@changesets/changelog-github": "npm:^0.4.8"
     "@changesets/cli": "npm:^2.26.0"
-    "@rescript/react": "npm:~0.11.0"
-    rescript: "npm:^10.1.2"
+    "@rescript/react": "npm:~0.12.0"
+    rescript: "npm:^11.1.1"
     use-sync-external-store: "npm:^1.0.0"
   peerDependencies:
     "@rescript/react": "*"
-    rescript: ">=9.0.0 || >=10.0.0"
+    rescript: ">=9.0.0 || >=10.0.0 || >=11.0.0"
     use-sync-external-store: ^1.0.0
   languageName: unknown
   linkType: soft
 
-"rescript@npm:^10.1.2":
-  version: 10.1.2
-  resolution: "rescript@npm:10.1.2"
+"rescript@npm:^11.1.1":
+  version: 11.1.1
+  resolution: "rescript@npm:11.1.1"
   bin:
     bsc: bsc
-    bsrefmt: bsrefmt
     bstracing: lib/bstracing
     rescript: rescript
-  checksum: 10/c1001d4e7d684d771c4abc50cc59651216294f911e7a55b57782fb81732d6e69b91fcb6db22164eb46dbd1b88429622aaaf7107c96df957af9b57b0a521603b5
+  checksum: 10/15d028e23c46ca6ef284bb189f4f22714e3740f4aecc8d2cf6625624736d3b4023c94332a4f0cfda80b44883ff95ee08142fff11d1d83d228b260dba8ae4f9a2
   languageName: node
   linkType: hard
 
